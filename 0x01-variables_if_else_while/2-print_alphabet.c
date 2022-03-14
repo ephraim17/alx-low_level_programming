@@ -2,7 +2,8 @@
 /**
  * main - alphabet in lowercase, followed by a newline.
  *
- * Always return(0)
+ * Description: print alphabet in lowercase
+ * Always return(0) Success
  */
 
 int main(void)
