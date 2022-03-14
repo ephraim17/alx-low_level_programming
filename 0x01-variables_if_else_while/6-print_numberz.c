@@ -14,6 +14,7 @@ int main(void)
 	for (number = 0 ; number < 10 ; number++)
 	{
 		putchar(number);
+		fflush(stdout);
 	}
 	putchar ('\n');
 	return (0);
