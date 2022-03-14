@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *  main - alphabet in lowercase, and then in uppercase, followed by a new line.
- *  
- *  Always return(0)
+ *  main - desc
+ *
+ *  Description: words
+ *  Return: Always(0) Success
  */
 
 int main(void)
@@ -11,17 +12,16 @@ int main(void)
 	char upperCase = 'A';
 	char lowerCase = 'a';
 
-	while (lowerCase <= 'z') 
+	while (lowerCase <= 'z')
 	{
 		putchar(lowerCase);
-                lowerCase++;      
-
+		lowerCase++;
 	}
 	while (upperCase <= 'Z')
 	{
-		putchar(upperCase);
+		putchar (upperCase);
 		upperCase++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
