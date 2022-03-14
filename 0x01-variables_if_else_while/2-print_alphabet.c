@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
- * main - alphabet in lowercase, followed by a newline.
+ * main - task2
  *
- * Description: print alphabet in lowercase
- * Always return(0) Success
+ * Description: Print alphabet in lowercase
+ * Return: Always(0) Success
  */
 
 int main(void)
