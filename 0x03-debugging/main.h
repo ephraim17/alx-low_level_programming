@@ -1,9 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 /**
  * main - main.h file
  *
- * Return: 0
+ * Description: main header file
+ * Return: Always(0) Success
  */
 
 #include <stdio.h>
