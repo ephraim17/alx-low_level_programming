@@ -9,7 +9,9 @@
 int main(void)
 {
 	int a, b, c;
+
 	int largest;
+
 	int largest_number();
 
 	a = 972;
