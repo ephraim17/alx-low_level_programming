@@ -1,5 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
+/**
+ * main - main.h file
+ *
+ * Return: 0
+ */
 
 #include <stdio.h>
 
