@@ -3,8 +3,9 @@
 
 /**
  * _strcmp - function to compare two strings
- * @s1: point
- *
+ * @s1: pointer to string 1
+ * @s2: pointer to string 2
+ * Return: flag.
  */
 
 int _strcmp(char *s1, char *s2)
