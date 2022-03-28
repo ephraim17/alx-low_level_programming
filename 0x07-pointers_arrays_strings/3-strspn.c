@@ -6,7 +6,7 @@
  * @s: input string
  * @accept: accepted characters
  *
- * Return: no. of bytes in the initial segment of s which only consists of bytes from accept
+ * Return: i
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -29,4 +29,3 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (i);
 }
-			
