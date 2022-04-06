@@ -3,7 +3,7 @@
 /**
  * main - program that prints own name
  * @argv: argument volume
- *
+ * @argc: argument coutn
  * Return: (0) Success.
  */
 
