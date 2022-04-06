@@ -1,17 +1,14 @@
 #include <stdio.h>
 
-/**
- * main - print all arguments passed
+/*
+ * main - print the number of arguments passed into it
  * @argc: argument count
- * @argv: argument volume
  * Return: (0) Success.
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int counter;
-
-	for (counter = 0; counter < argc; counter++)
-		printf("%s\n", argv[counter]);
+	printf("%d\n", argc);
+	(void)argv;
 	return (0);
 }
