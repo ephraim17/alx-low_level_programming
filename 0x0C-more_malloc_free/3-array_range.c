@@ -10,7 +10,7 @@
  * Return: (0) Success.
  */
 
-itn *array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int *pointer;
 	int len, i;
