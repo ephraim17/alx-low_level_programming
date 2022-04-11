@@ -2,7 +2,8 @@
 #include "dog.h"
 
 /**
- * struct dog - dog structure
+ * init_dog - dog structure
+ * @d: first param
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
@@ -11,10 +12,10 @@
 
 void init_dog(struct dog *d, char name, float age, char *owner)
 {
-	struct dog
+	if (d)
 	{
-		char name;
-		float age;
-		char *owner;
-	} my_dog;
+		(*d).name = name;
+		(*d).age = age;
+		(*d).owner = owner;
+	}
 }
