@@ -10,15 +10,13 @@
  * Return: Number of elements
  */
 
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
 	unsigned int n = 0;
-	const list_t *temp;
 
-	temp = h;
-	while (h)
+	while (h != NULL)
 	{
-		temp = temp->next;
+		h = h->next;
 		n++;
 	}
 	return (n);
