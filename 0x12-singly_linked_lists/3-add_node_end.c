@@ -5,7 +5,7 @@
 
 /**
  * add_node_end - Add a new node at the end of a list.
- * @haed: Address of the first node of a list.
+ * @head: Address of the first node of a list.
  * @str: Address of the string to insert into the new node.
  *
  * Return: Address to the new node.
